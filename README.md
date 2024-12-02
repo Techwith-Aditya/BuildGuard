@@ -62,8 +62,8 @@ Construction sites are hazardous environments. Ensuring workers' compliance with
    pip install -r requirements.txt
 
 3. Prepare the Dataset:
-- Place your dataset in the data folder (or specify its location).
-- Ensure the dataset is labeled with the following classes: Safe, Unsafe, Helmet, No Helmet.
+   - Place your dataset in the data folder (or specify its location).
+   - Ensure the dataset is labeled with the following classes: Safe, Unsafe, Helmet, No Helmet.
 
 4. Train the Model:
 - Open the training notebook and execute the cells to train the YOLOv11 model:
@@ -84,7 +84,7 @@ Construction sites are hazardous environments. Ensuring workers' compliance with
    python evaluate.py
 
 7. Visualize Results:
-- Navigate to the Images Folder to see training and validation predictions.
-- View plots of precision-recall curves and other performance metrics.
+  - Navigate to the Images Folder to see training and validation predictions.
+  - View plots of precision-recall curves and other performance metrics.
 
 
