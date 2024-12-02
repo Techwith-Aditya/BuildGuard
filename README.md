@@ -66,25 +66,25 @@ Construction sites are hazardous environments. Ensuring workers' compliance with
    - Ensure the dataset is labeled with the following classes: Safe, Unsafe, Helmet, No Helmet.
 
 4. Train the Model:
-- Open the training notebook and execute the cells to train the YOLOv11 model:
-  ```bash
-   python Model_YOLOv11_Training.ipynb
-- Customize the training parameters if needed (e.g., epochs, learning rate).
+   - Open the training notebook and execute the cells to train the YOLOv11 model:
+     ```bash
+     python Model_YOLOv11_Training.ipynb
+   - Customize the training parameters if needed (e.g., epochs, learning rate).
 
 5. Test the Model:
-- Run inference on test images/videos to check the model's performance:
-  ```bash
-   python inference.py --image path/to/image.jpg
-   python inference.py --video path/to/video.mp4
-- Replace path/to/image.jpg or path/to/video.mp4 with the actual path.
+   - Run inference on test images/videos to check the model's performance:
+     ```bash
+     python inference.py --image path/to/image.jpg
+     python inference.py --video path/to/video.mp4
+   - Replace path/to/image.jpg or path/to/video.mp4 with the actual path.
 
 6. Evaluate the Model:
-- Evaluate the model's performance using precision, recall, and F1-score:
-  ```bash
-   python evaluate.py
+   - Evaluate the model's performance using precision, recall, and F1-score:
+     ```bash
+     python evaluate.py
 
 7. Visualize Results:
-  - Navigate to the Images Folder to see training and validation predictions.
-  - View plots of precision-recall curves and other performance metrics.
+   - Navigate to the Images Folder to see training and validation predictions.
+   - View plots of precision-recall curves and other performance metrics.
 
 
