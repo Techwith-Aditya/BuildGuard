@@ -25,13 +25,6 @@ By automating the detection process, this project aims to enhance workplace safe
 
 ---
 
-## Files in This Repository
-- **`Model_YOLOv11_Training.ipynb`**: Training notebook for YOLOv11.
-- **`results.csv`**: Model predictions and performance metrics.
-- **Images Folder**: Contains visualizations of training and validation predictions.
-
----
-
 ## How It Works
 1. **Data Preparation**: Dataset annotated with classes (`Safe`, `Unsafe`, `Helmet`, `No Helmet`).
 2. **Model Training**: YOLOv11 trained on labeled data for safety compliance detection.
@@ -41,14 +34,13 @@ By automating the detection process, this project aims to enhance workplace safe
 ---
 
 ## Results
-- **Accuracy**: Achieved high precision in detecting helmet compliance and safety violations.
-- **PR Curve**: Demonstrates strong performance in imbalanced datasets.
-- **Visualizations**: Sample predictions included for easy reference.
-
----
-
-## Why This Project?
-Construction sites are hazardous environments. Ensuring workers' compliance with safety standards is crucial for reducing workplace injuries. This project provides an automated solution to monitor safety, increasing efficiency and minimizing human error.
+- **Accuracy**: High precision in detecting helmet use and safety violations.  
+- **PR Curve**: Strong performance on custom datasets.  
+- **Visualizations**:  
+  - **Confusion Matrix**: Shows classification performance.  
+  - **F1 Curve**: Displays F1-score vs confidence thresholds.  
+  - **Predictions**: Samples from training and validation.  
+  - **Correlogram**: Label correlation in the dataset.
 
 ---
 
