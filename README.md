@@ -1,4 +1,4 @@
-# AI for Construction Safety 🏗️👷‍♂️
+# AI for Construction Safety 
 
 ## Overview
 This project leverages **AI-powered computer vision** to ensure safety compliance on construction sites. The model is trained to identify individuals as:
@@ -10,10 +10,10 @@ By automating the detection process, this project aims to enhance workplace safe
 ---
 
 ## Features
-- 🚀 **Helmet Detection**: Identifies workers wearing or not wearing helmets.
-- ✅ **Safety Classification**: Classifies individuals as safe or unsafe.
-- 📊 **Performance Visualization**: Includes confusion matrix, PR curves, and F1-score analysis.
-- 📁 **Custom Dataset**: Model trained on a custom dataset collected from real-world construction sites.
+- **Helmet Detection**: Identifies workers wearing or not wearing helmets.
+- **Safety Classification**: Classifies individuals as safe or unsafe.
+- **Performance Visualization**: Includes confusion matrix, PR curves, and F1-score analysis.
+- **Custom Dataset**: Model trained on a custom dataset collected from real-world construction sites.
 
 ---
 
