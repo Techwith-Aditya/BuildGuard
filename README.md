@@ -48,6 +48,7 @@ By automating the detection process, this project aims to enhance workplace safe
 1. Clone this repository:  
    ```bash
    git clone https://github.com/Techwith-Aditya/AI_For_Construction_Safety.git
+   cd AI_For_Construction_Safety
    
 2. Install Dependencies:
    ```bash
@@ -60,7 +61,11 @@ By automating the detection process, this project aims to enhance workplace safe
 4. Train the Model:
    - Open the training notebook and execute the cells to train the YOLOv11 model:
      ```bash
-     python Model_YOLOv11_Training.ipynb
+     !apt update
+     !apt install -y ffmpeg libsm6 libxext6
+     !pip install ultralytics
+     !curl -L "https://app.roboflow.com/ds/DcwCFn51Fc?key=9RdahkTNvW" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip -y
+     !yolo task=detect mode=train model=yolo11n.pt data="data.yaml" epochs=50 imgsz=640
    - Customize the training parameters if needed (e.g., epochs, learning rate).
 
 5. Test the Model:
@@ -70,12 +75,7 @@ By automating the detection process, this project aims to enhance workplace safe
      python inference.py --video path/to/video.mp4
    - Replace path/to/image.jpg or path/to/video.mp4 with the actual path.
 
-6. Evaluate the Model:
-   - Evaluate the model's performance using precision, recall, and F1-score:
-     ```bash
-     python evaluate.py
-
-7. Visualize Results:
+6. Visualize Results:
    - Navigate to the Images Folder to see training and validation predictions.
    - View plots of precision-recall curves and other performance metrics.
 
