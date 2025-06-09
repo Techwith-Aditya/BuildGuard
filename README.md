@@ -1,4 +1,4 @@
-# AI for Construction Safety 
+# BuildGuard-AI for Construction Safety 
 
 ## Overview
 This project leverages **AI-powered computer vision** to ensure safety compliance on construction sites. The model is trained to identify individuals as:
